@@ -2,7 +2,7 @@ using System;
 
 namespace Assignment2
 {
-    public class RNumGenSorter
+    public class RNumGen
     {
         public int [] RandomNumGen(){
             Console.WriteLine("Enter the total no of numbers to generate");
@@ -24,10 +24,6 @@ namespace Assignment2
                 Console.WriteLine(randomNumbers[i]);
             }
             return randomNumbers;
-        }
-
-        public void NumSorter(){
-
         }
     }
 }
